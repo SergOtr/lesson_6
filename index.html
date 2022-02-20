@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 6 Winter 2022</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main>
+            <div class="logo">
+                <a href="https://www.w3schools.com/html/html_blocks.asp"><img src="img/logo.png" alt="Logo of W3 scools"></a>
+            </div>
+            <div class="top-block">
+                <h1>HTML Block and Inline Elements</h1>
+                <div class="buttons">
+                    <a href="https://www.w3schools.com/html/html_lists_other.asp" class="previous-next previous" target="_blank">&lt;&nbsp;&nbsp;Previous</a>
+                    <a href="https://www.w3schools.com/html/html_classes.asp" class="previous-next next" target="_blank">Next&nbsp;&nbsp;&gt;</a>
+                </div>
+                <p>Every HTML element has a default display value, depending on what type of element it is.</p>
+                <p>There are two display values: block and inline.</p>
+            </div>
+            <div class="block-level">
+                <h3>Block-level Elements</h3>
+                <p>A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</p>
+                <p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
+                <p>Two commonly used block elements are: <span>&lt;p&gt;</span> and <span>&lt;div&gt;</span>.</p>
+                <p>The <span>&lt;p&gt;</span> element defines a paragraph in an HTML document.</p>
+                <p>The <span>&lt;div&gt;</span> element defines a division or a section in an HTML document.</p>
+                <p class="frame">The &lt;p&gt; element is a block-level element.</p>
+                <p class="frame">The &lt;div&gt; element is a block-level element.</p>    
+                <h5>Example</h5>
+                <div class="example"> 
+                    <p><span>&lt;p&gt;</span>¡Hola, mundo!<span>&lt;p&gt;</span></p>
+                    <p><span>&lt;div&gt;</span>¡Hola, mundo!<span>&lt;div&gt;</span></p>
+                </div>
+                <div class="try">
+                    <a class="previous-next" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_block_div">Try it Yourself >></a>
+                </div>
+                <p>Here are the block-levels elements in HTML:</p>
+                <div>
+                    <p><span>&lt;address&gt; &nbsp;&nbsp; &lt;article&gt; &nbsp;&nbsp; &lt;aside&gt; &nbsp;&nbsp; &lt;blockquote&gt; &nbsp;&nbsp; &lt;canvas&gt; &nbsp;&nbsp; &lt;dd&gt; &nbsp;&nbsp; &lt;div&gt; &nbsp;&nbsp; &lt;dl&gt; &nbsp;&nbsp; &lt;dt&gt; &nbsp;&nbsp; &lt;fieldset&gt; &nbsp;&nbsp; &lt;figcaption&gt; &nbsp;&nbsp; &lt;figure&gt; &nbsp;&nbsp; &lt;footer&gt; &nbsp;&nbsp; &lt;form&gt; &nbsp;&nbsp; &lt;hi&gt;-&lt;h6&gt; &nbsp;&nbsp; &lt;header&gt; &nbsp;&nbsp; &lt;hr&gt; &nbsp;&nbsp; &lt;li&gt; &lt;main&gt; &nbsp;&nbsp; &lt;nav&gt; &nbsp;&nbsp; &lt;div&gt; &nbsp;&nbsp;&lt;noscript&gt; &nbsp;&nbsp;&lt;ol&gt; &nbsp;&nbsp; &lt;p&gt; &nbsp;&nbsp; &lt;pre&gt; &nbsp;&nbsp; &lt;section&gt; &nbsp;&nbsp; &lt;table&gt; &nbsp;&nbsp; &lt;tfoot&gt; &nbsp;&nbsp; &lt;ul&gt; &nbsp;&nbsp; &lt;video&gt;</span></p>
+                </div>    
+            </div>
+            <div class="inline">
+                <h3>Inline Elements</h3>
+                <p>An inline element does not start on a new line.</p>
+                <p>An inline element only takes up as much as necessary.</p>
+                <p>This is a <span>&lt;span&gt;</span>  element inside a paragtaph.</p>
+                <h5>Example</h5>
+                <div class="example"> 
+                    <p><span>&lt;span&gt;</span>¡Hola, mundo!<span>&lt;span&gt;</span></p>
+                </div>
+                <div class="try">
+                    <a class="previous-next" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_inline_span" target="_blank">Try it Yourself >></a>
+                </div>
+                <p>Here are the inline elements in HTML:</p>
+                <div>
+                    <p><span>&lt;a&gt; &nbsp;&nbsp; &lt;abrr&gt; &nbsp;&nbsp; &lt;acronim&gt; &nbsp;&nbsp; &lt;b&gt; &nbsp;&nbsp; &lt;bdo&gt; &nbsp;&nbsp; &lt;big&gt; &nbsp;&nbsp; &lt;br&gt; &nbsp;&nbsp; &lt;button&gt; &nbsp;&nbsp; &lt;cite&gt; &nbsp;&nbsp; &lt;code&gt; &nbsp;&nbsp; &lt;dfn&gt; &lt;em&gt; &nbsp;&nbsp; &lt;i&gt; &nbsp;&nbsp; &lt;img&gt; &nbsp;&nbsp; &lt;input&gt; &nbsp;&nbsp; &lt;kbd&gt; &nbsp;&nbsp; &lt;label&gt; &nbsp;&nbsp; &lt;map&gt; &nbsp;&nbsp; &lt;object&gt; &nbsp;&nbsp; &lt;output&gt; &nbsp;&nbsp; &lt;q&gt; &nbsp;&nbsp; &lt;samp&gt; &nbsp;&nbsp;&lt;script&gt; &nbsp;&nbsp;&lt;select&gt; &nbsp;&nbsp; &lt;small&gt; &nbsp;&nbsp; &lt;span&gt; &nbsp;&nbsp; &lt;strong&gt; &nbsp;&nbsp; &lt;sub&gt; &nbsp;&nbsp; &lt;sup&gt; &nbsp;&nbsp; &lt;textaria&gt; &nbsp;&nbsp; &lt;time&gt; &nbsp;&nbsp; &lt;tt&gt; &nbsp;&nbsp; &lt;var&gt;</span></p>
+                </div> 
+                <div class="note">
+                    <p class="yellow"><mark><strong>Note:</strong> An inline element cannot contain a block-level element!</mark></p>
+                </div>   
+            </div>
+            <div class="the-div-element">
+                <h3>The &lt;div&gt; Element</h3>
+                <p>The <span>&lt;div&gt;</span> element is often used as a container for other HTML elements.</p>
+                <p>The &lt;div&gt; element has no required atributes, but <span>style</span>, <span>class</span> and <span>id</span> are common.</p>
+                <p>When used together with CSS, the <span>&lt;div&gt;</span> element can be used to style block of content:</p>
+                <h5>Example</h5>
+                <div class="example">
+                    <p><span>&lt;div style</span>="color:black;padding:20px;<span>&gt;</span></p>
+                    <p><span>&lt;h2&gt;</span>London<span>&lt;/h2&gt;</span></p>
+                    <p><span>&lt;p&gt;</span>London is the capital city of England. It is the most populos city in the United Kingdom, with a metropolitan aria of over 13 million inhabitans. <span>&lt;/p&gt;&lt;/div&gt;</span></p>
+                </div>
+                <div class="try">
+                    <a class="previous-next" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div" target="_blank">Try it Yourself&nbsp;&nbsp;>></a>
+                </div>
+            </div>
+            <div class="the-span-element">
+                <h3>The &lt;span&gt; Element</h3>
+                <p>The <span>&lt;span&gt;</span> element is an inline container used to mark up a part of a text, or a part of a document.</p>
+                <p>The <span>&lt;span&gt;</span> element has no required attributes, but <span>style</span>, <span>class</span> and <span>id</span> are common.</p>
+                <p>When used together with CSS, the <span>&lt;span&gt;</span> element can be used to style parts of the text:</p>
+                <h5>Example</h5>
+                <div class="example">
+                    <p><span>&lt;p&gt;</span>My mother has <span> &lt;span style</span>="color:blue;font-weight:bold"<span>></span>blue<span>&lt;/span&gt;</span> eyes.<span>&lt;/p&gt;</span></p>
+                </div>  
+                <div class="try">
+                    <a class="previous-next" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_span" target="_blank">Try it Yourself&nbsp;&nbsp;>></a>
+                </div>
+            </div>
+            <div class="summary">
+                <h3>Chapter Summary</h3>
+                <div>
+                    <ul>
+                        <li>There are two display values: block and inline</li>
+                        <li>A block-level element always starts on a new line and takes up the full width available</li>
+                        <li>An inline element does not start on a new line and it only takes up as much width as necessary</li>
+                        <li>The <span>&lt;div&gt;</span> element is a block-level and is often used as a container for other HTML elements</li>
+                        <li>The <span>&lt;span&gt;</span> element is an inline container used to mark up a part of a text, or a part of a document</li>
+                    </ul>
+                </div>
+                <p class="yellow"><mark>For a complete list of all available HTML tags, visit our <span><a href="https://www.w3schools.com/tags/default.asp" target="_blank">HTML Tag Reference</a></span>.</mark></p>
+            </div>
+            <div class="buttons">
+                <a href="https://www.w3schools.com/html/html_lists_other.asp" class="previous-next previous" target="_blank">&lt;&nbsp;&nbsp;Previous</a>
+                <a href="https://www.w3schools.com/html/html_classes.asp" class="previous-next next" target="_blank">Next&nbsp;&nbsp;&gt;</a>
+            </div>
+        </main>
+        <footer class="footer">
+            <a id="figma" target="_blank" href="figma.html">Figma</a>
+        </footer>
+    </div>
+</body>
+</html>

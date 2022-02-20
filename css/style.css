@@ -1,0 +1,199 @@
+/* &display=swap */
+@import "null.css";
+
+/* styles for index.html */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('../fonts/SegoeUI.woff2') format('woff2'), url('../fonts/SegoeUI.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Consolas';
+	src: url('../fonts/Consolas.woff2') format('woff2'), url('../fonts/Consolas.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	padding: 0px 42px 30px 42px;
+}
+main {
+	color: #000;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	line-height: 1.5;
+}
+.logo {
+	padding: 25px 0px 0px 30px;
+	margin-bottom: 20px;
+}
+.logo img {
+	width: 100px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+h1 {
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.top-block .buttons {
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.previous-next {
+	background-color: #04aa6d;
+	color: #ffffff;
+	border-color: #04aa6d;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 8px 19px;
+	border-radius: 5px;
+}
+.previous {
+	margin-left: 3%;
+}
+.next {
+	margin-left: 70%;
+}
+p,
+li {
+	margin-bottom: 18px;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+span {
+	color: red;
+}
+.frame {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #04aa6d;
+	padding: 5px;
+}
+h5 {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.example {
+	border-left: 4px solid #04aa6d;
+	padding-left: 10px;
+	margin: 20px 0px;
+}
+.example p {
+	margin-bottom: 5px;
+}
+.try {
+	margin-bottom: 40px;
+}
+mark {
+	padding: 16px;
+}
+.summary {
+	margin-bottom: 40px;
+}
+mark span {
+	color: blue;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+.yellow {
+	margin: 40px 0px;
+}
+#figma {
+	display: inline-block;
+	background-color: grey;
+	font-size: 35px;
+	padding: 25px;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 15px 10px rgb(60, 90, 7);
+	margin: 10% 20%;
+	font-family: 'Kanit', sans-serif;
+}
+/* styles for index_figma.html */
+
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+.content-top {
+	font-family: CircularStd;
+	font-weight: 400;
+	margin-bottom: 200px;
+}
+.wrapper.figma {
+	padding-top: 80px;
+}
+.figma h1 {
+	font-size: 65px;
+	max-width: 601px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+.content-top p {
+	font-size: 20px;
+	max-width: 750px;
+	margin: 0px auto;
+}
+.content-center {
+	max-width: 508px;
+	margin: 0px 0px 110px 218px;
+}
+.content-center h3 {
+	color: #313131;
+	font-family: CircularStd;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 44.2px;
+	margin-bottom: 20px;
+}
+.content-center p {
+	color: #5f5f5f;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 67px;
+}
+.author-name {
+	color: #313131;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23.4px;
+	margin-bottom: 5px;
+}
+.author-occupation {
+	color: #b8b8b8;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22.77px;
+	margin-bottom: 20px;
+}
+img {
+	max-width: 468px;
+}
